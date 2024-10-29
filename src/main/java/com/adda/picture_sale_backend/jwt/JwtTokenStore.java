@@ -7,8 +7,6 @@ import java.util.Map;
 
 @Component
 public class JwtTokenStore {
-
-
     private static JwtTokenStore instance;
     // Private constructor to prevent instantiation from outside the class
     public JwtTokenStore() {
